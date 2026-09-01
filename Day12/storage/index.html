@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storage Task</title>
+</head>
+
+<body>
+
+  <h1>User Preferences</h1>
+
+  <label>
+    Name:
+    <input type="text" id="nameInput">
+  </label>
+
+  <br><br>
+
+  <label>
+    Theme:
+    <select id="themeSelect">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </label>
+
+  <br><br>
+
+  <button id="saveBtn">Save Preferences</button>
+  <button id="clearLocalBtn">Clear Local Storage</button>
+  <button id="clearSessionBtn">Clear Session Storage</button>
+  <button id="deleteCookieBtn">Delete Cookie</button>
+
+  <hr>
+
+  <p id="nameDisplay"></p>
+  <p id="lastVisit"></p>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
