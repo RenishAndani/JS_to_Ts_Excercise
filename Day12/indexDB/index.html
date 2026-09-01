@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IndexedDB CRUD</title>
+</head>
+
+<body>
+
+  <h1>Student Manager</h1>
+
+  <form id="studentForm">
+
+    <input type="text" id="nameInput" placeholder="Student name" required>
+
+    <input type="number" id="ageInput" placeholder="Age" required>
+
+    <input type="text" id="courseInput" placeholder="Course" required>
+
+    <button type="submit">
+      Add Student
+    </button>
+
+  </form>
+
+  <hr>
+
+  <h2>Students</h2>
+
+  <table border="1">
+
+    <thead>
+
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Course</th>
+        <th>Actions</th>
+      </tr>
+
+    </thead>
+
+    <tbody id="studentTableBody">
+    </tbody>
+
+  </table>
+
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
